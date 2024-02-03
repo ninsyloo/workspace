@@ -1,0 +1,4 @@
+Refactorizar --
+Cambiar la estructura interna sin alterar el comportamiento externo.
+RAM --
+random access memory
