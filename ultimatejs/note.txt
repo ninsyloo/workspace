@@ -1,5 +1,6 @@
 Refactorizar --
 Cambiar la estructura interna sin alterar el comportamiento externo.
+
 RAM --
 random access memory
 
@@ -8,3 +9,12 @@ En el Stack se asignan todas las variables primitivas y la cantidad x de memoria
 la memoria Heap es dinamica, si por alguna razon necesitaramos asignarle mas espacio a esta memoria podriamos hacerlo
 en la memoria Heap es donde se van a guardar todos los tipos de datos de referencia, es un poco mas lenta que la memoria Stack 
 la cual no se puede modificar ni agrandarse.
+
+Tipos de lenguajes de programacion: 
+
+a)tipado estatico: al momento de definir una variable le vamos a indicar el tipo de dato que vamos a utilizar ej: string,
+y este tipo de dato es inamovible, lo que significa que solo aceptara strings.
+Java es un lenguaje con tipado estatico.
+
+b)tipado dinamico: sus variables aceptan diferentes tipos de datos.
+JavaScript es un lenguaje con tipado dinamico.
