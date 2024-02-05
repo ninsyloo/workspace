@@ -9,6 +9,7 @@ let apellido, animal; //otra forma de declarar variables aunque x buenas practic
 
 apellido='Gordette'
 
+
 //tipos de datos
 
 //Primitivos         De Referencia
@@ -18,3 +19,5 @@ apellido='Gordette'
 //Boolean            Function
 //Undefined          Classes
 //Null
+
+

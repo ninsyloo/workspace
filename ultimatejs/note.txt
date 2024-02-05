@@ -2,3 +2,9 @@ Refactorizar --
 Cambiar la estructura interna sin alterar el comportamiento externo.
 RAM --
 random access memory
+
+Las variables se guardan dentro de la memoria ram de la compu
+En el Stack se asignan todas las variables primitivas y la cantidad x de memoria que posee no se puede agrandar, sin embargo es de rapido acceso.
+la memoria Heap es dinamica, si por alguna razon necesitaramos asignarle mas espacio a esta memoria podriamos hacerlo
+en la memoria Heap es donde se van a guardar todos los tipos de datos de referencia, es un poco mas lenta que la memoria Stack 
+la cual no se puede modificar ni agrandarse.
