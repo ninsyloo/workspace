@@ -20,10 +20,12 @@ let array = [{
 
 function toCollection(arr){
     let newArr = [];
-    for (e of arr){
-        console.log(e)
+    for (idx in arr){
+        let element = arr[idx];
+        newArr[idx] = element[1];
+        newArr[idx].id = element[0];
     }
-    
+    return newArr;
 }
 
 let resultado = toCollection(pairs);
