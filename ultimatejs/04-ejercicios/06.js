@@ -13,3 +13,12 @@ function cuantosPositivos(arr){
 
 let resultado = cuantosPositivos(array);
 console.log(resultado);
+
+//guardar numeros positivos en un array
+
+function positivos(arr){
+  let positive = arr.filter((e)=>{return e > 0})
+  return positive;
+}
+
+let result = positivos(array);
