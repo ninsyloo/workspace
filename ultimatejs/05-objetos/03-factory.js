@@ -1,6 +1,7 @@
 
 
 //Las factory functions nos ayudan a no tener un codigo tan repetitivo
+//por convencion se definen utilizando camelCase.
 
 function crearUsuario(username, email){
     return {
