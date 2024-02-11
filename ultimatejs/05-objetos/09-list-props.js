@@ -33,6 +33,8 @@ for(let entry of Object.entries(punto)){
     console.log(entry)
 }
 
+//LOS METODOS DE KEYS Y ENTRIES SON METODOS ESTATICOS
+
 //Esto nos permite explorar y ver las propiedades de un objeto cuando no las conocemos.
 //siempre deberia usar FOR IN
 
